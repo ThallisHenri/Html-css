@@ -1,0 +1,27 @@
+body{
+    background-image: url(Images/wallpaper005.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+header{
+    text-align: center;
+}
+div{
+    margin: 10px;
+    height: 200px;
+    width: 500px;
+    border: 2px solid black;
+    display: inline-block;
+}
+div#Q1{
+    background-image: url(Images/wallpaper003.jpg);
+    background-position: left center;
+}
+div#Q2{
+    background-image: url(Images/wallpaper003.jpg);
+    background-position: center center;
+}
+div#Q3{
+    background-image: url(Images/wallpaper003.jpg);
+    background-position: right center;
+}
