@@ -18,8 +18,16 @@ th{
     padding: 10px;
 }
 
+thead > tr > th{
+    position: sticky;
+    top: 0;
+    background-color: gray;
+
+}
+
 table{
     border-collapse: collapse;
+    position: relative;
 }
 
 caption{
