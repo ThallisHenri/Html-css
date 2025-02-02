@@ -1,0 +1,30 @@
+td{
+    border: 1px solid black;
+    width: 100px;
+    height: 25px;
+    padding: 5px;
+    text-align: center;
+}
+th{
+    border: 1px solid black;
+    width: 100px;
+    height: 25px;
+    padding: 5px;
+    background-color: rgb(71, 71, 71);
+    color: white;
+}
+table{
+    border-collapse: collapse;
+}
+.mediaHu{
+    background-color: rgb(71, 71, 71);
+    color: white;
+}
+.mediaEx{
+    background-color: rgb(71, 71, 71);
+    color: white;
+}
+input{
+    margin: 10px;
+    border-radius: 5px;
+}
