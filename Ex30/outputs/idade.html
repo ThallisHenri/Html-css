@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora De Idade</title>
+</head>
+<body>
+    <h1>Exemplo de Formulario</h1>
+    <form action="../Cadastro.php">
+        <p>
+            <label for="iAno">Digite sua idade</label>
+            <input type="number" name="Ano" id="iAno" max="2025" min="1900"a oninput="iIdade.innerHTML = Number(2025) - Number(iAno.value)">
+        </p>
+        <p>
+            <label for="iIdade">Sua Idade é</label>
+            <output id="iIdade"> 0 </output>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+</body>
+</html>

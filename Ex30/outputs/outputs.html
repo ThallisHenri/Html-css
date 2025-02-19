@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outputs</title>
+</head>
+<body>
+    <h1>Exemplo de formulario</h1>
+    <form action="../Cadastro.php" method="post">
+        <p>
+            <label for="iN1">Número um</label>
+            <input type="number" name="numero" id="iN1" max="10" min="1" oninput= "isoma.innerHTML = Number(iN1.value) + Number(iN2.value)">
+        </p>
+        <p>
+            <label for="iN2">Número dois</label>
+            <input type="number" name="numero2" id="iN2" max="10" min="1" oninput= "isoma.innerHTML = Number(iN1.value) + Number(iN2.value)">
+        </p>
+        <p>
+            <label for="isoma">Soma:</label>
+            <output id="isoma">0</output>
+        </p>
+        <input type="submit" value="Somar">
+    </form>
+</body>
+
+</html>

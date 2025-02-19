@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select, Datalist e textarea</title>
+</head>
+<body>
+    <form action="Cadastro.php" method="get">
+        <label for="iEstado">Estado</label>
+        <select name="estado" id="IEstado">
+            <optgroup label="Região suldeste">
+                <option value="Rj">Rio De Janeiro</option>
+                <option value="Sp">Sao Paulo</option>
+                <option value="MG">Minas Gerais</option>
+            </optgroup>
+        </select>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    <p>
+        <input type="text" list="ltsprof">
+        <datalist id="ltsprof">
+            <option value="Rj">Rio De Janeiro</option>
+            <option value="Sp">Sao Paulo</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PB">Paraiba</option>
+            <option value="BA">Bahia</option>
+            <option value="PE">Pernambuco</option>
+        </datalist>
+    </p>
+    <p><textarea name="msg" id="imsg" cols="20" rows="10"></textarea></p>
+</body>
+</html>
