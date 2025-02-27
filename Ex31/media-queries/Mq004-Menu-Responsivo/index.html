@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media queries</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+    <link rel="stylesheet" href="styles/all.css" media="all">
+</head>
+<body>
+
+    <header>
+        <h1>Meu Site</h1>
+        <span onclick="aparecer()" id="burger" class="material-symbols-outlined">
+            menu
+            </span>
+        <menu  id="itens" >
+            <ul>
+                <li> <a href="#">Opção 1</a> </li>
+                <li> <a href="#">Opção 2</a> </li>
+                <li> <a href="#">Opção 3</a> </li>
+                <li> <a href="#">Opção 4</a> </li>
+                <li> <a href="#">Opção 5</a> </li>
+            </ul>
+        </menu>
+
+    </header>
+
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui veritatis sapiente odio, quis minus ratione et reiciendis nihil totam porro maiores voluptate dolorum nobis eos. Necessitatibus nemo vero numquam perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur error labore, explicabo sunt obcaecati quos aspernatur fuga repudiandae? Perferendis sit ipsam eos quas quae impedit, dignissimos possimus debitis ut facere. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore quisquam earum ut dolor voluptatum necessitatibus corrupti minus corporis tempore dignissimos maiores, repellat ipsa dolorem ullam deserunt, nostrum aut quo blanditiis. </p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia aliquid ut maxime quisquam illum deserunt similique enim error impedit amet recusandae aspernatur, cupiditate voluptatem saepe inventore aliquam veniam aut nostrum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, necessitatibus. Quis consequuntur incidunt corrupti iusto voluptatem reiciendis omnis voluptatibus nulla? Alias inventore corporis saepe explicabo ipsam. Voluptatum atque unde illum.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia aliquid ut maxime quisquam illum deserunt similique enim error impedit amet recusandae aspernatur, cupiditate voluptatem saepe inventore aliquam veniam aut nostrum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, necessitatibus. Quis consequuntur incidunt corrupti iusto voluptatem reiciendis omnis voluptatibus nulla? Alias inventore corporis saepe explicabo ipsam. Voluptatum atque unde illum.</p>
+        </article>
+    </main>
+</body>
+    <script>
+        var item = document.getElementById ("itens")
+
+        function aparecer(){
+            if (item.style.display = block) {
+                item.style.display = none
+            } else {
+                item.style.display = block
+            }
+        }
+    </script>
+</html>
